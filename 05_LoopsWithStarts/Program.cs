@@ -85,12 +85,56 @@ namespace _05_LoopsWithStarts
 
             #region baklava dilimi
 
-            int n = 5;
-            for(int i=0; i<=n; i++)
+            //for(int i=1; i<=5; i++)
+            //{
+            //    for(int j=4; j>0; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for(int k=1; k<=2*i-1; k++)
+            //    {   
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();    
+            //}
+
+            //for(int i=4; i>=1; i--)
+            //{
+            //    for(int j = 4; j > 0; j-- )
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for(int k=1; k<=2*i-1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+
+            #endregion
+
+            #region piramit
+            //for(int i=1; i<=5; i++)
+            //{
+            //    for (int j=5-i; j>0; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for(int k=1; k<=2*i-1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            #endregion
+
+            #region ters piramit
+
+            for(int i=5; i>0; i--)
             {
-                for(int j=n-1; j>0; j--)
+                for(int j=5-i; j>0; j--)
                 {
-                    Console.Write(" *");
+                    Console.Write(" ");
                 }
                 for(int k=1; k<=2*i-1; k++)
                 {
