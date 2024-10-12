@@ -40,7 +40,7 @@ namespace _05_LoopsWithStarts
 
             //for (int i = 1; i <= 10; i++)
             //{
-            //    for (int j=1; j<=i; j++)
+            //    for (int j = 1; j <= i; j++)
             //    {
             //        Console.Write(" *");
             //    }
@@ -51,9 +51,9 @@ namespace _05_LoopsWithStarts
 
             #region TersDik Üçgen
 
-            //for (int i=10; i>=1; i--)
+            //for (int i = 1; i <= 10; i++)
             //{
-            //    for(int j=1; j<=i; j++)
+            //    for (int j = 10; j >= i; j--)
             //    {
             //        Console.Write(" *");
             //    }
@@ -64,22 +64,22 @@ namespace _05_LoopsWithStarts
 
             #region  dik üçgen ve ters üçgen bir arada
 
-            //for(int i = 1; i <= 10; i++)
-            //{
-            //    for(int j=1; j<=i; j++)
-            //    {
-            //        Console.Write(" *");
-            //    }
-            //    Console.WriteLine();
-            //}
-            //for(int i=9; i>=1; i--)
-            //{
-            //    for(int j=1; j<=i; j++)
-            //    {
-            //        Console.Write(" *");
-            //    }
-            //    Console.WriteLine();
-            //}
+            for (int i = 1; i <= 10; i++)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write(" *");
+                }
+                Console.WriteLine();
+            }
+            for (int i = 9; i >= 1; i--)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write(" *");
+                }
+                Console.WriteLine();
+            }
 
             #endregion
 
@@ -115,10 +115,12 @@ namespace _05_LoopsWithStarts
             #region piramit
             //for(int i=1; i<=5; i++)
             //{
+            //boşluklar
             //    for (int j=5-i; j>0; j--)
             //    {
             //        Console.Write(" ");
             //    }
+            //yıldızlar
             //    for(int k=1; k<=2*i-1; k++)
             //    {
             //        Console.Write("*");
@@ -130,18 +132,93 @@ namespace _05_LoopsWithStarts
 
             #region ters piramit
 
-            for(int i=5; i>0; i--)
-            {
-                for(int j=5-i; j>0; j--)
-                {
-                    Console.Write(" ");
-                }
-                for(int k=1; k<=2*i-1; k++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine();
-            }
+            //for(int i=5; i>0; i--)
+            //{
+            //    //boşluklar
+            //    for(int j=5-i; j>0; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    //yıldızlar
+            //    for(int k=1; k<=2*i-1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            #endregion
+
+            #region 
+
+            //for(int i=1; i<=10; i++)
+            //{
+            //    for(int j=1; j<=i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+
+            //for(int i=1; i<=10; i++)
+            //{
+            //    for(int j=10; j>=i; j--)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    for (int j = 1; j <= i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    for (int j = 10; j >= i; j--)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //for (int i = 0; i <= 5; i++)
+            //{
+            //        for (int j = 5 - i; j > 0; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //        for (int k = 0; k <=  i - 1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //for(int i=0;i<10; i++)
+            //{
+            //    for(int j=0;j<10; j++)
+            //    {
+            //        if (i == j)
+            //        {
+            //            Console.Write("*");
+            //        }
+            //        else
+            //        {
+            //            Console.Write(" ");
+            //        }
+            //    }
+            //    Console.WriteLine();
+            //}
 
             #endregion
 
